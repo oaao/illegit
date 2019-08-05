@@ -1,2 +1,11 @@
 # illegit
-a git-like VCS. learning project written in python
+
+A Git-like VCS written in Python.
+
+## setup
+
+Make the `illegit/illegit` file executable:
+
+```
+chmod +x illegit/illegit
+```
