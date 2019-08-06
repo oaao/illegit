@@ -1,16 +1,12 @@
 import collections
-import configparser  # to read and write Git's .ini-like config file format
 import hashlib       # to use SHA-1 hashing
-import os
 import re
 import sys
 import zlib          # used by Git for compression
 
+import repo
 from cli import parser
 
-
-def test(args):
-    print('hi')
 
 def main(argv=sys.argv[1:]):
 
